@@ -1864,7 +1864,7 @@ Is{~0∊2</[⍺]⍵}N	Is N Strictly Increasing along axis Is?	Dfn	Dyadic Functio
 Is{~0∊2≤/[⍺]⍵}N	Is N Non-decreasing along axis Is?	Dfn	Dyadic Function		Mathematical	testif ascending? rising? up ordered? sorted? dimension		
 Is{~0∊2≥/[⍺]⍵}N	Is N Non-increasing along axis Is?	Dfn	Dyadic Function		Mathematical	testif descending? falling? down ordered? Nonincreasing? sorted? dimension		
 Is{~0∊2>/[⍺]⍵}N	Is N Strictly Decreasing along axis Is?	Dfn	Dyadic Function		Mathematical	testif descending? falling? down ordered? Nondecreasing? sorted? dimension		
-{0⎕JSON¨⍵⊆⍨⍵=⎕UCS 10}Dv	Convert JSON Lines text Dv to APL vector	Dfn	Monadic Function		Data Conversion	NDJSON .jsonl from JSONLines2APL javascriptobjectnotation import parse deserialise deserialize converting change changing string		
+{0⎕JSON¨⍵⊆⍨⍵≠⎕UCS 10}Dv	Convert JSON Lines text Dv to APL vector	Dfn	Monadic Function		Data Conversion	NDJSON .jsonl from JSONLines2APL javascriptobjectnotation import parse deserialise deserialize converting change changing string		
 note←{new←⎕PW {old←⎕PW}} dfns.wrapnote note	Wrap text paras in note vect	Dfn	Function		Text	words linevector box-drawingcharacters boxdrawingcharacters string		https://dfns.dyalog.com/n_wrapnote.htm
 {⍵ ⎕NPUT⍨⊂⎕SE⎕WG'Log'}Dv	Save Session log as file Dv	Dfn	Monadic Function		System	store dyalog transcript text scrollback scroll-back string		
 Is{⍺↑⍵⍪⍺⌿¯1↑⍵}Y	Stretch Y to length Is repeating the last major cell as necessary	Dfn	Dyadic Function		Structural	elongate continue final element item		
